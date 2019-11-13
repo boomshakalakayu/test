@@ -7,6 +7,7 @@
 
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
 		
 	<script src="js/bootstrap.bundle.min.js"></script>
 	<script src="js/jquery-3.4.1.min.js"></script>
@@ -23,16 +24,25 @@
 				  <span class="navbar-toggler-icon"></span>
 				</button>
 
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				  <ul class="navbar-nav mr-auto">
+				<div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+				  <ul class="navbar-nav">
 				    <li class="nav-item active">
 				      <a class="nav-link" href="#">Home</a>
 				    </li>
 				    <li class="nav-item">
-				      <a class="nav-link" href="#">Link</a>
+				      <a class="nav-link" href="#">Page</a>
 				    </li>
 				    <li class="nav-item">
-				       <a class="nav-link" href="#">Link</a>
+				       <a class="nav-link" href="#">Portfolio</a>
+				    </li>
+				    <li class="nav-item">
+				       <a class="nav-link" href="#">Portfolio</a>
+				    </li>
+				    <li class="nav-item">
+				       <a class="nav-link" href="#">Portfolio</a>
+				    </li>
+				    <li class="nav-item">
+				       <a class="nav-link" href="#">Portfolio</a>
 				    </li>
 				  </ul>
 				</div>
@@ -40,26 +50,29 @@
 		</nav>
 	</div>
 
-	<div id="content">
-		<section>
+		<section class="blue-area">
 			<div class="container">
 				<div class="row">
 					
-					<div class="col-lg-7">
-						<h1>Best way to chat to your customers using slack.</h1>
-						<p>Why I say old chap that is spiffing off his nut arse pear shaped<br>
-						plastered Jeffrey bodge barney some dodgy chav cockup sloshed up<br>
-						the duff starkers cheeky bugger.!!</p>
-						<a href="#">get started</a>
+					<div class="col-lg-7 d-flex align-items-center">
+						<div class="content">
+							<h1 class="font-weight-bold mb-4">Best way to chat to your customers using slack.</h1>
+							<p class="mb-4 text-white">Why I say old chap that is spiffing off his nut arse pear shaped<br>
+							plastered Jeffrey bodge barney some dodgy chav cockup sloshed up<br>
+							the duff starkers cheeky bugger.!!</p>
+							<a href="#" class="btn btn-outline-primary mt-4">Get started</a>
+						</div>
 					</div>
 					<div class="col-lg-5">
-						<img class="img-fluid" src="https://fakeimg.pl/680x719/" alt="img">
+						<div class="img">
+							<img class="img-fluid" src="https://fakeimg.pl/680x719/" alt="img">
+						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<section>
+		<section class="feature f-pad">
 			<div class="container">
 				<div class="row">
 					
@@ -67,16 +80,20 @@
 						<img class="img-fluid" src="https://fakeimg.pl/676x466/" alt="">
 					</div>
 					<div class="col-lg-5">
-						<i class ="icon">i</i>
-						<h2>Manage conversations with leads and customers at scale</h2>
+						<i class ="icon">
+							<img src="https://fakeimg.pl/105x105/" alt="">
+						</i>
+						<h2 class="my-3 pr-5">Manage conversations with leads and customers at scale</h2>
 						<p>That cheeky bugger down the pub squiffy arse spiffing cup of char on your bike mate, quaint I Jeffrey I don't want no agro you mug zonked Richard, barney bobby matie boy David a the full monty. Don't get shirty with me faff about cheesed off cheeky bubble.!</p>
 					</div>
 				</div>
 
-				<div class="row">
+				<div class="row mt130">
 					<div class="col-lg-5">
-						<i class ="icon">i</i>
-						<h2>Send targeted messages to the right people at the right time.</h2>
+						<i class ="icon">
+							<img src="https://fakeimg.pl/105x105/" alt="">
+						</i>
+						<h2 class="my-3 pr-5">Send targeted messages to the right people at the right time.</h2>
 						<p>Why I say old chap that is spiffing me old mucker, lurgy brown bread grub the BBC the full monty chancer ruddy dropped a clanger, only quid blag mush cracking goal mufty blow off cor blimey guvnor.!</p>
 					</div>
 					<div class="col-lg-5 ml-auto">
@@ -86,79 +103,87 @@
 			</div>
 		</section>
 
-		<section>
-			<div class="container">
-				<div class="title">
+		<section class="service f-pad ">
+			<div class="container b-container">
+				<div class="title text-center">
 					<h2>Your enterprise carrier in the Cloud</h2>
-					<p>Mush bobby loo bugger all mate on your bike mate at public school
+					<p>Mush bobby loo bugger all mate on your bike mate at public school<br>
 					lemon squeezy posh, cuppa cup.!</p>
 				</div>
-				<div class="row">
+				<div class="row mt70 ">
 					
 					<div class="col-lg-3 col-sm-6">
-						<div class="row">
-							<div class="col-10">
-								<h4>Mail Metrics<br>
-								Receive</h4>
+						<div class="service-item">
+							<div class="row">
+								<div class="col-10">
+									<h4>Mail Metrics<br>
+									Receive</h4>
+								</div>
+								<div class="col">
+									<div class="icon">i</div>
+								</div>
 							</div>
-							<div class="col">
-								<div class="icon">i</div>
-							</div>
+							<p>Brolly off his nut A bit of how's your father chancer in my flat chinwag bog skive.</p>
+							<img class="float-right" src="https://fakeimg.pl/184x170/" alt="">
 						</div>
-						<p>Brolly off his nut A bit of how's your father chancer in my flat chinwag bog skive.</p>
-						<img class="img-fluid" src="https://fakeimg.pl/184x170/" alt="">
 					</div>
 					<div class="col-lg-3 col-sm-6">
-						<div class="row">
-							<div class="col-10">
-								<h4>Mail Metrics<br>
-								Receive</h4>
+						<div class="service-item">
+							<div class="row">
+								<div class="col-10">
+									<h4>Mail Metrics<br>
+									Receive</h4>
+								</div>
+								<div class="col">
+									<div class="icon">i</div>
+								</div>
 							</div>
-							<div class="col">
-								<div class="icon">i</div>
-							</div>
+							<p>Brolly off his nut A bit of how's your father chancer in my flat chinwag bog skive.</p>
+							<img class="float-right" src="https://fakeimg.pl/184x170/" alt="">
 						</div>
-						<p>Brolly off his nut A bit of how's your father chancer in my flat chinwag bog skive.</p>
-						<img class="img-fluid" src="https://fakeimg.pl/184x170/" alt="">
 					</div>
 					<div class="col-lg-3 col-sm-6">
-						<div class="row">
-							<div class="col-10">
-								<h4>Mail Metrics<br>
-								Receive</h4>
+						<div class="service-item">
+							<div class="row">
+								<div class="col-10">
+									<h4>Mail Metrics<br>
+									Receive</h4>
+								</div>
+								<div class="col">
+									<div class="icon">i</div>
+								</div>
 							</div>
-							<div class="col">
-								<div class="icon">i</div>
-							</div>
+							<p>Brolly off his nut A bit of how's your father chancer in my flat chinwag bog skive.</p>
+							<img class="float-right" src="https://fakeimg.pl/184x170/" alt="">
 						</div>
-						<p>Brolly off his nut A bit of how's your father chancer in my flat chinwag bog skive.</p>
-						<img class="img-fluid" src="https://fakeimg.pl/184x170/" alt="">
 					</div>
 					<div class="col-lg-3 col-sm-6">
-						<div class="row">
-							<div class="col-10">
-								<h4>Mail Metrics<br>
-								Receive</h4>
+						<div class="service-item">
+							<div class="row">
+								<div class="col-10">
+									<h4>Mail Metrics<br>
+									Receive</h4>
+								</div>
+								<div class="col">
+									<div class="icon">i</div>
+								</div>
 							</div>
-							<div class="col">
-								<div class="icon">i</div>
-							</div>
+							<p>Brolly off his nut A bit of how's your father chancer in my flat chinwag bog skive.</p>
+							<img class="float-right" src="https://fakeimg.pl/184x170/" alt="">
 						</div>
-						<p>Brolly off his nut A bit of how's your father chancer in my flat chinwag bog skive.</p>
-						<img class="img-fluid" src="https://fakeimg.pl/184x170/" alt="">
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<section>
-			<div class="container">
-				<div class="title">
+		<section class="pricing f-pad">
+			<div class="container b-container">
+				<div class="title text-center">
 					<h2>Simple Pricing for Your Team</h2>
 					<p>Why I say old chap that is spiffing lavatory chip shop gosh off his nut,<br>
 					smashing boot are you taking the piss posh.!</p>
 				</div>
-				<ul class="nav nav-pills justify-content-center">
+				<ul class="nav nav-pills mx-auto">
 				  <li class="nav-item">
 				    <a class="nav-link active" href="#">Billed monthly</a>
 				  </li>
@@ -166,32 +191,31 @@
 				    <a class="nav-link" href="#">Billed annually</a>
 				  </li>
 				</ul>
-				<div class="row">
+				<div class="row price-tab">
 					<div class="col-lg-4 col-sm-6">
 						<div class="item">
 							<img class="img-fluid" src="https://fakeimg.pl/161x124/" alt="">
-							<h5>Education</h5>
+							<h5 class="mt-4">Education</h5>
 							<p>Create your first online course</p>
 							<div class="price">
 								25.00
 								<sub>/mo</sub>
 							</div>
-							<hr>
 							<ul class="list-unstyled">
 								<li>
-									<i class="icon">Only 2 Operators</i>
+									<i class="icon"></i>Only 2 Operators
 								</li>
 								<li>
-									<i class="icon">Abandoned Cart</i>
+									<i class="icon"></i>Abandoned Cart
 								</li>
 								<li>
-									<i class="icon">Facebook & Instagram Ads</i>
+									<i class="icon"></i>Facebook & Instagram Ads
 								</li>
 								<li>
-									<i class="icon">Order Notifications</i>
+									<i class="icon"></i>Order Notifications
 								</li>
 								<li>
-									<i class="icon">Landing Pages</i>
+									<i class="icon"></i>Landing Pages
 								</li>
 							</ul>
 							<a href="#" class="btn btn-outline-primary">start today</a>
@@ -200,28 +224,27 @@
 					<div class="col-lg-4 col-sm-6">
 						<div class="item">
 							<img class="img-fluid" src="https://fakeimg.pl/161x124/" alt="">
-							<h5>Education</h5>
+							<h5 class="mt-4">Education</h5>
 							<p>Create your first online course</p>
 							<div class="price">
 								25.00
 								<sub>/mo</sub>
 							</div>
-							<hr>
 							<ul class="list-unstyled">
 								<li>
-									<i class="icon">Only 2 Operators</i>
+									<i class="icon"></i>Only 2 Operators
 								</li>
 								<li>
-									<i class="icon">Abandoned Cart</i>
+									<i class="icon"></i>Abandoned Cart
 								</li>
 								<li>
-									<i class="icon">Facebook & Instagram Ads</i>
+									<i class="icon"></i>Facebook & Instagram Ads
 								</li>
 								<li>
-									<i class="icon">Order Notifications</i>
+									<i class="icon"></i>Order Notifications
 								</li>
 								<li>
-									<i class="icon">Landing Pages</i>
+									<i class="icon"></i>Landing Pages
 								</li>
 							</ul>
 							<a href="#" class="btn btn-outline-primary">start today</a>
@@ -230,28 +253,27 @@
 					<div class="col-lg-4 col-sm-6">
 						<div class="item">
 							<img class="img-fluid" src="https://fakeimg.pl/161x124/" alt="">
-							<h5>Education</h5>
+							<h5 class="mt-4">Education</h5>
 							<p>Create your first online course</p>
 							<div class="price">
 								25.00
 								<sub>/mo</sub>
 							</div>
-							<hr>
 							<ul class="list-unstyled">
 								<li>
-									<i class="icon">Only 2 Operators</i>
+									<i class="icon"></i>Only 2 Operators
 								</li>
 								<li>
-									<i class="icon">Abandoned Cart</i>
+									<i class="icon"></i>Abandoned Cart
 								</li>
 								<li>
-									<i class="icon">Facebook & Instagram Ads</i>
+									<i class="icon"></i>Facebook & Instagram Ads
 								</li>
 								<li>
-									<i class="icon">Order Notifications</i>
+									<i class="icon"></i>Order Notifications
 								</li>
 								<li>
-									<i class="icon">Landing Pages</i>
+									<i class="icon"></i>Landing Pages
 								</li>
 							</ul>
 							<a href="#" class="btn btn-outline-primary">start today</a>
@@ -261,11 +283,13 @@
 			</div>
 		</section>
 
-		<section>
+		<section class="blue d-flex align-items-center">
 			<div class="container">
-				<h2>Device friendly widget</h2>
-				<p>Why I say old chap that is spiffing me old mucker, lurgy brown bread grub the BBC the full monty chancer ruddy dropped a clanger, only a quid blag mush cracking goal mufty blow.!</p>
-				<a href="" class="btn btn-outline-primary">get started</a>
+				<div class="blue-content text-center mx-auto">
+					<h1 class="font-weight-bold mb-4">Device friendly widget</h1>
+					<p class="text-white mb-5">Why I say old chap that is spiffing me old mucker, lurgy brown bread grub the BBC the full monty chancer ruddy dropped a clanger, only a quid blag mush cracking goal mufty blow.!</p>
+					<a href="#" class="btn btn-outline-primary">get started</a>
+				</div>
 			</div>
 		</section>
 	</div>
@@ -275,50 +299,58 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-4">
-						<a href="#">
-							<img src="https://fakeimg.pl/163x25/" alt="">
-						</a>
-						<p>Why I say old chap that is spiffing lavatory chip shop gosh off his nut.!</p>
-						<img src="https://fakeimg.pl/300x172/" alt="">
+						<div class="logo">
+							<a href="#">
+								<img src="https://fakeimg.pl/163x25/" alt="">
+							</a>
+							<p class="my-4">Why I say old chap that is spiffing lavatory chip shop gosh off his nut.!</p>
+							<img src="https://fakeimg.pl/270x154/" alt="">
+						</div>
 					</div>
 					<div class="col-lg-2">
-						<h3>Company</h3>
-						<ul class="list-unstyled">
-							<li><a href="#">Company</a></li>
-							<li><a href="#">Leadership</a></li>
-							<li><a href="#">Diversity</a></li>
-							<li><a href="#">Jobs</a></li>
-							<li><a href="#">Press</a></li>
-							<li><a href="#">Wavelength</a></li>
-						</ul>
-					</div>
-					<div class="col-lg-3">
-						<h3>Company</h3>
-						<ul class="list-unstyled">
-							<li><a href="#">Company</a></li>
-							<li><a href="#">Leadership</a></li>
-							<li><a href="#">Diversity</a></li>
-							<li><a href="#">Jobs</a></li>
-							<li><a href="#">Press</a></li>
-							<li><a href="#">Wavelength</a></li>
-						</ul>
-					</div>
-					<div class="col-lg-3">
-						<h3>Follow Us</h3>
-						<div class="social-media">
-							<a href="#">f</a>
-							<a href="#">t</a>
-							<a href="#">v</a>
-							<a href="#">p</a>
+						<div class="about">
+							<h4 class="mb-4">Company</h4>
+							<ul class="list-unstyled">
+								<li><a href="#">Company</a></li>
+								<li><a href="#">Leadership</a></li>
+								<li><a href="#">Diversity</a></li>
+								<li><a href="#">Jobs</a></li>
+								<li><a href="#">Press</a></li>
+								<li><a href="#">Wavelength</a></li>
+							</ul>	
 						</div>
-						<div class="contact-info">
-							<div class="info-email">
-								<label>email:</label>
-								<a href="mailto:saasland@gmail.com">saasland@gmail.com</a>
+					</div>
+					<div class="col-lg-3">
+						<div class="about">
+							<h4 class="mb-4">Workflow Solutions</h4>
+							<ul class="list-unstyled">
+								<li><a href="#">Company</a></li>
+								<li><a href="#">Leadership</a></li>
+								<li><a href="#">Diversity</a></li>
+								<li><a href="#">Jobs</a></li>
+								<li><a href="#">Press</a></li>
+								<li><a href="#">Wavelength</a></li>
+							</ul>
+						</div>	
+					</div>	
+					<div class="col-lg-3">
+						<div class="social">
+							<h4 class="mb-4">Follow Us</h4>
+							<div class="social-media">
+								<a href="#">f</a>
+								<a href="#">t</a>
+								<a href="#">v</a>
+								<a href="#">p</a>
 							</div>
-							<div class="info-phone">
-								<label>phone:</label>
-								<a href="tel:948256347968">+948 256 347 968</a>
+							<div class="contact-info mt-4">
+								<div class="info-email">
+									<label>email:</label>
+									<a href="mailto:saasland@gmail.com">saasland@gmail.com</a>
+								</div>
+								<div class="info-phone">
+									<label>phone:</label>
+									<a href="tel:948256347968">+948 256 347 968</a>
+								</div>
 							</div>
 						</div>
 					</div>
