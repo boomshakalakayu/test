@@ -6,6 +6,9 @@
 .f-pad {
 	padding: 120px 0;
 }
+.pt-200 {
+	padding-top: 200px;
+}
 .mt130 {
 	margin-top: 130px;
 }
@@ -17,7 +20,7 @@
 	line-height: 28px;
 }
 .b-container {
-	min-width: 1450px;
+	max-width: 1450px;
 }
 body {
 	color: #677294;
@@ -64,15 +67,11 @@ p {
 	background :#00aff0;
 	height: 930px;
 	.content {
-		padding-top: 200px;
-		}
 		a {
 			background: #fff;
 			padding: 15px 35px;
 			border-radius: 35px;
 		}
-	.img {
-		padding-top: 180px;
 	}
 }
 
@@ -97,9 +96,12 @@ p {
 		border-radius: 45px;
 		max-width: 400px;
 		background: #fff;
-		.nav-link {
-			padding: 15px 30px;
-			border-radius: 45px;
+		li {
+			flex-grow: 1;
+			.nav-link {
+				padding: 15px 30px;
+				border-radius: 45px;
+			}	
 		}
 	}
 	.price-tab {
@@ -160,6 +162,9 @@ p {
 	}
 	.footer-bottom {
 		padding: 25px 0;
+		ul {
+			margin: 0;
+		}
 		li + li:before {
 			content: "";
 		    display: inline-block;
